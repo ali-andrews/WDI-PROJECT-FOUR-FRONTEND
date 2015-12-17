@@ -110,6 +110,9 @@ margin-top: -5px;
 
 }
 
+
+
+
 .profilepageimage {
   background-color: white;
   border-style: solid;
@@ -118,6 +121,16 @@ margin-top: -5px;
   /*padding-bottom: 80px;*/
   margin-right: 80px;
   margin-left: 60px;
+  padding-top: 50px;
+  padding-bottom: 130px;
+
+  background-image: url("http://thegracetales.com/wp-content/uploads/2015/08/TGTXSportscraft-561.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: medium;  
+  background-repeat:no-repeat;
+  background-position: center center;
+  opacity: 0.5;
 }
 
 
@@ -373,7 +386,7 @@ nav.navbar.navbar-default {
 }
 
 div.ga.jumbotron.ng-scope{
-  background: url('/css/images/homepage_three.png') no-repeat center center;
+  background: url('./css/images/homepage_three.png') no-repeat center center;
   position: fixed;
   width: 100%;
   height: 750px; same height as jumbotron  
