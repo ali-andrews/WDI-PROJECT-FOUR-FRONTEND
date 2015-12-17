@@ -79,6 +79,19 @@ h5 {
 }
 
 
+.img-rounded {
+  border-radius: 100%;
+  padding: 10px;
+
+}
+
+.img-thumbnail {
+  border-radius: 100%;
+  padding: 10px;
+}
+
+
+
 p2 {
   padding: 8px;
   font: Serif;
@@ -111,18 +124,22 @@ margin-top: -5px;
 }
 
 
+#profilecircles.row {
+  margin-top: 20px;
+
+}
 
 
 .profilepageimage {
   background-color: white;
   border-style: solid;
    border-width: medium;  
-  margin-top: 120px;
+  margin-top: 80px;
   /*padding-bottom: 80px;*/
   margin-right: 80px;
   margin-left: 60px;
-  padding-top: 50px;
-  padding-bottom: 130px;
+  padding-top: 10px;
+  padding-bottom: 55px;
 
   background-image:linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255,0.6)), url("http://thegracetales.com/wp-content/uploads/2015/08/TGTXSportscraft-561.jpg");
   background-size: cover;
@@ -156,6 +173,8 @@ div.row.ng-scope {
 p {
   color: black;
   text-align: center;
+  margin-top: 15px;
+
 }
 
 h3 {
@@ -251,7 +270,9 @@ section.ng-scope {
   margin: 0 auto;
 }
 
-
+.linesprofile {
+  text-decoration: underline;
+}
 
 .grid {
   text-align: center;
@@ -484,4 +505,19 @@ section {
 
 #first-jumbo {
   min-height: calc(~"100vh - 50px");
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#productinfo {
+  margin-top: 145px;
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+#productimage {
+  margin-top: 40px;
 }
