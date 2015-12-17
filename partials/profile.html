@@ -1,15 +1,27 @@
+<div ng-controller="CartController as carts">
+
 <!-- fourth section - Information -->
+<section ng-hide="users.paymentSuccessful" id="payments">
 <div ng-show="users.isLoggedIn()" id="payments">
   <div id="information" class="pad-section">
     <div class="profilepage">
-      <section ng-hide="users.paymentSuccessful" id="payments">
         <div class="profilepageimage">
           <h1><strong>Hello {{users.user.firstname}},</strong></h1>
           <p><br><strong> Welcome to Baby Bag - </strong>how can we help you (and your little one) today? </br></p>
           <!-- <p> Here are some of our latest products we thought you might like: </p> -->
         </div>
+        </section>
 
-        <!-- <section ng-show="users.paymentSuccessful" id="payments"> -->
+<section ng-show="users.paymentSuccessful" id="payments">
+      <div class="paymentsuccessful">
+    <p2><strong>Thank you {{users.user.firstname}},</strong></p2><br>
+    Your payment of £{{ users.totalAmount }} was successfull! 
+    <br>The confirmation will be sent to your email shortly. 
+  </div>
+</section>
+
+
+         <section ng-hide="users.paymentSuccessful" id="payments">
         <div class="row" id="profilecircles">
           <p class="linesprofile"> We are proud to announce we will be importing baby clothing from the beginning of January: </p><br>
 
@@ -43,21 +55,23 @@
             </div>
 
             <div class="col-md-4">
-            <div class="tile">
-              <img src="http://zh.heinzforbaby.com.au/var/forbaby_au/storage/images/our-products/heinz-organic/heinz-organic-mini-rice-cakes-apple-10-months/34298-11-eng-US/HEINZ-Organic-Mini-Rice-Cakes-Apple-10-months.jpg" alt="..." class="img-thumbnail" alt="..." class="img-rounded" style="width:264px;height:240px;">
-              <p>Food: <em> Heinz Organic Apple crackers</em></p>
+              <div class="tile">
+                <img src="http://zh.heinzforbaby.com.au/var/forbaby_au/storage/images/our-products/heinz-organic/heinz-organic-mini-rice-cakes-apple-10-months/34298-11-eng-US/HEINZ-Organic-Mini-Rice-Cakes-Apple-10-months.jpg" alt="..." class="img-thumbnail" alt="..." class="img-rounded" style="width:264px;height:240px;">
+                <p>Food: <em> Heinz Organic Apple crackers</em></p>
               </div>
             </div>
 
             <div class="col-md-4">
-            <div class="tile">
-              <img src="http://cdn.babyworld.co.uk/wp-content/uploads/2012/09/Wetness-Indicator-packshot-562x500.jpg?bdfdce" alt="babydress" class="img-thumbnail" style="width:264px;height:240px;">
-              <p>Forumla: <em> Nappies: Huggies</em></p>
+              <div class="tile">
+                <img src="http://cdn.babyworld.co.uk/wp-content/uploads/2012/09/Wetness-Indicator-packshot-562x500.jpg?bdfdce" alt="babydress" class="img-thumbnail" style="width:264px;height:240px;">
+                <p>Forumla: <em> Nappies: Huggies</em></p>
               </div>
             </div>
-
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+      </section>
     </div>
   </div>
+</div>
+</div>
