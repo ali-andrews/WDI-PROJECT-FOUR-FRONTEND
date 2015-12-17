@@ -308,6 +308,9 @@ div.row {
     color: black;
     background-color: white;
     text-align: center;
+    font-weight: bold;
+    padding: 10px;
+
 }
 
 .btn-primary.btn-lg {
@@ -395,6 +398,7 @@ div.ga.jumbotron.ng-scope{
 
 #checkout {
   padding: 50px;
+
 }
 
 
@@ -412,7 +416,10 @@ div.ga.jumbotron.ng-scope{
   background-color: white;
   font: Serif;
   border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
 }
+
 
 
 .item.active {
