@@ -305,6 +305,10 @@ div.col-xs-12.col-md-4.ng-scope {
   
 }
 
+.col-md-4 {
+  padding-bottom: 30px;
+}
+
 img#sectionone {
   background-position: center;
   /*background-image: url (../css/images/homepage_three.png);*/
