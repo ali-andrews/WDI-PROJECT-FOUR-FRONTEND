@@ -94,7 +94,7 @@ div.paymentsuccessful.ng-binding {
   margin-top: 130px;
   margin-left: 180px;
   margin-right: 180px;
-  background-image: url("http://i.telegraph.co.uk/multimedia/archive/03332/baby-charlotte-geo_3332305k.jpg");
+  background-image: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255,0.3)), url("http://i.telegraph.co.uk/multimedia/archive/03332/baby-charlotte-geo_3332305k.jpg");
   /*background-image: center;*/
   background-size: cover;
   border-style: solid;
