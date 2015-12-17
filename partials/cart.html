@@ -1,0 +1,18 @@
+<div class="row">
+<section ng-controller="CartController as cartController">
+  <ul>
+  <h3> MY CART</h3>
+    <div class="col-md-6" ng-repeat="product in cartController.products">
+      <img src="{{ product.image }}" width="200" />
+      {{ product.name }} <strong>£{{ product.price | number:2 }}</strong>
+    </div>
+  </ul>
+  <br>
+  <div class="col-md-6" id="checkout">
+  <strong> Total: £{{ cartController.totalAmount }}</strong>
+  <a ui-sref-active="active" class="btn btn-secondary-outline" ui-sref="checkout"> Checkout</a>
+  </div>
+</section>
+</div>
+
+

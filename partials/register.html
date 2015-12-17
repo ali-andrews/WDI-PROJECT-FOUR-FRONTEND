@@ -1,0 +1,108 @@
+<section class ="registerpage">
+<div class="register" ng-show="!users.isLoggedIn()">
+<div class="form-group">
+  <form id="join" ng-submit="users.join()">
+
+  <div class="signuptitle">
+  <h3>REGISTER</h3>
+  </div>
+  <br>
+  <div class="registerform">
+    <label for="username"><Strong>User name</strong></label>
+    <input type="text" class="form-control" name="username" placeholder="Username" ng-model="users.user.username">
+  <br>
+    <label for="email">Email</label>
+    <input type="text" class="form-control" name="email" placeholder="Email" ng-model="users.user.email">
+  <br>
+    <label for="First name">First Name</label>
+    <input type="text" class="form-control" name="firstname" placeholder="First name" ng-model="users.user.firstname">
+  <br> 
+    <label for="street">Street Address</label>
+    <input type="text" class="form-control" name="street" placeholder="Your street address" ng-model="users.user.street">
+  <br> 
+    <label for="city">City</label>
+    <input type="text" class="form-control" name="city" placeholder="What city do you live in?" ng-model="users.user.city">
+  <br>
+    <label for="postcode">Postcode</label>
+    <input type="text" class="form-control" name="status" placeholder="Your postcode?" ng-model="users.user.postcode">
+  <br> 
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Password" ng-model="users.user.password">
+  <br>
+    <label for="twopassword">Re-Enter Password</label>
+    <input type="password" class="form-control" name="password" placeholder="Re-Entered-Password" ng-model="users.user.twopassword">
+  <br>
+  
+
+    <!-- <li><input type="submit" ng-click="productViewController.addToCart()" /></li> -->
+    <input type="submit" class="btn btn-default" value="Register">
+    </br>
+    </div>
+  </form>
+  </div>
+  </div>
+
+
+
+<div ng-show="users.isLoggedIn()"><h1><strong>Hello {{users.user.firstname}}<strong></h1><p><br> Welcome to Baby Bag - how can we help you (and you're little one)? We want to make this site as easy as possible for you to navigate around.</br></p><br><p>  Here are some of our latest products which have been very popular: </br></p></div>
+
+<!-- fourth section - Information -->
+<div ng-show="users.isLoggedIn()">
+<div id="information" class="pad-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Marie Chantal: Bear Sweater </h2>
+          </div>
+          <img src="http://mariechantaluslive.blob.core.windows.net/productimages/BBJUCAA40005/BBJUCAA40005_TME_Z1.jpg" alt="babydress" style="width:344px;height:348px;">
+          <div class="panel-body lead">
+            This cute sweater is made from 100% cashmere, it features a bear instarsia designed in-house, with contrast collar and cuffs. Our clothing is cut small, we recommend you choose the next size up. Available in sizes 6M – 24M.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Huggies: Newborn Nappies</h2>
+          </div>
+          <img src="http://cdn.babyworld.co.uk/wp-content/uploads/2012/09/Wetness-Indicator-packshot-562x500.jpg?bdfdce" alt="babydress" style="width:344px;height:348px;">
+          <div class="panel-body lead">
+            Your precious baby needs extra-tender care during those first special weeks. That's why Treasures Newborn nappies are designed to provide ultra dryness and comfort.
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">NAN H.A. 1 Gold: Formula</h2>
+          </div>
+          <img src="http://cdn.shopify.com/s/files/1/0789/3885/products/323_ae41edf2-3c3e-4dec-a285-6006346335f1_large.jpeg?v=1430790860" alt="babydress" style="width:344px;height:348px;">
+          <div class="panel-body lead">
+           NAN H.A. 1 Gold is a premium specially treated (partially hydrolysed) starter infant formula that is easy to digest. NAN H.A. 1 Gold helps to support your infant's digestive and immune systems. 
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Marie Chantal: Angel Wing Onesie</h2>
+          </div>
+          <img src="http://mariechantaluklive.blob.core.windows.net/productimages/NBAWCAS20002/NBAWCAS20002_PIN_Z1.jpg"  alt="babydress" style="width:344px;height:348px;">
+          <div class="panel-body lead">
+           Made from a super-soft pima cotton in a light pointelle knit, this footie is ideal for warmer months. It features our signature Angel Wings at the back and has snap front fastening for easy changing. Available in sizes 0M-18M.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+</section>
+
+
+
+<br>

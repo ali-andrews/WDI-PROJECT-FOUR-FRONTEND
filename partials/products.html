@@ -1,0 +1,15 @@
+<section ng-controller="ProductController as productController">
+<div class ="grid">
+  <div class="container-fluid">
+    <h3>PRODUCTS</h3>
+    <div class="row" ng-repeat="row in productController.products">
+      <div class="col-xs-12 col-md-4" ng-repeat="product in row">
+        <a ui-sref-active="active" ui-sref="viewProduct({id:product._id})">
+        <p>{{ product.name }} <strong>£{{ product.price | number:2 }}</strong></p>
+          <img src="{{ product.image }}" style="width:250px;height:250px;" />
+        </a>      
+      </div>
+    </div>
+  </div>
+  </div>
+</section>

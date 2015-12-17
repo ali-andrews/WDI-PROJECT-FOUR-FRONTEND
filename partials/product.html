@@ -1,0 +1,19 @@
+<section ng-controller="ProductViewController as productViewController">
+<div class="row" id="productcartdisplay">
+
+<div class="col-xs-6" id="productdisplay">
+  <h6>{{ productViewController.product.name }}</h6>
+  <p>{{ productViewController.product.description }}</p>
+  <h5>£{{ productViewController.product.price | number:2 }}</h5>
+  <div class="productbutton"><input type="button" class="btn btn-secondary-outline" value="Add to cart" ng-click="productViewController.addToCart()" /></li></div>
+  </div>
+
+  <div class="col-xs-6" id="productdisplaytwo">
+  <img class="productimg" src="{{ productViewController.product.image }}"/>
+  </div>
+  </div>
+</section>
+
+
+  
+  
