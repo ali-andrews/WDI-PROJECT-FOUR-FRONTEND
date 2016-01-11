@@ -24,7 +24,7 @@ I found I utilized Passport for local authentication. The back-end API is run on
 <img src="http://i.imgur.com/Q0raUG4.png" width="100%" title="source: imgur.com" />
 <img src="http://i.imgur.com/E97agGo.jpg" width="100%" title="source: imgur.com" />
 <img src="http://i.imgur.com/6it8gGC.jpg" width="100%" title="source: imgur.com" />
-<img src="http://i.imgur.com/HcUFJmn.png" width="100%" title="source: imgur.com" />
+<img src="http://i.imgur.com/HcUFJmn.png" width="30%" title="source: imgur.com" />
 
 ###What is The Baby Bag?
 The Baby bag is an end-to-end delivery service that enables families to order all of their necessary weekly baby supplies online in few simple steps. Deliveries can be direct to their home, office or a location of their choice. Through this website users can register, sign in and purchase baby food, formula, nappies and other essential baby care products each week. 
