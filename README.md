@@ -15,6 +15,8 @@ I found I utilized Passport for local authentication. The back-end API is run on
 ###See The Baby Bag live on:
 [http://ali-andrews.github.io/WDI-PROJECT-FOUR-FRONTEND/#/](http://ali-andrews.github.io/WDI-PROJECT-FOUR-FRONTEND/#/)
 <br>
+###Heroku Link: 
+[https://radiant-taiga-9057.herokuapp.com/products](https://radiant-taiga-9057.herokuapp.com/products)
 <br>
 
 
