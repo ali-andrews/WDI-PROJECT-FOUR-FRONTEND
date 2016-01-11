@@ -11,6 +11,13 @@ I found I utilized Passport for local authentication. The back-end API is run on
 <br>
 <br>
 
+
+###See The Baby Bag live on:
+[http://ali-andrews.github.io/WDI-PROJECT-FOUR-FRONTEND/#/](http://ali-andrews.github.io/WDI-PROJECT-FOUR-FRONTEND/#/)
+<br>
+<br>
+
+
 <img src="http://i.imgur.com/0wNOeWz.jpg" width="100%" title="source: imgur.com" />
 <img src="http://i.imgur.com/Q0raUG4.png" width="100%" title="source: imgur.com" />
 <img src="http://i.imgur.com/E97agGo.jpg" width="100%" title="source: imgur.com" />
